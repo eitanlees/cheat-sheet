@@ -21,3 +21,10 @@ pickle.dump( favoritecolor, open( "save.p", "wb" ) )
 ### pickel.load
 
 favoritecolor = pickle.load( open( "save.p", "rb" ) )
+
+OS
+--
+
+### Making the system speak
+
+os.system("say 'hello world'")
