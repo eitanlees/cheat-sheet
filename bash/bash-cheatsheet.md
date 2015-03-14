@@ -54,3 +54,6 @@ Copy the directory "foo" from the local host to a remote host's directory "bar"
 Copy the file "foobar.txt" from the local host to a remote host using port 2264
 
     scp -P 2264 foobar.txt your_username@remotehost.edu:/some/remote/directory
+
+Using globs with scp and zsh
+    scp your_username@remotehost.edu:\*.txt /some/local/directory
