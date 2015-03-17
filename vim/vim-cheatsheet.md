@@ -30,6 +30,10 @@ Ceaser cipher where N is 13 --> g?
 ### Caseswitch
 Toggle case of selected text --> ~
 
+### Number increment
+To increase a number --> <C-a>
+To decrease a number --> <C-x>
+
 
 Surround-vim
 ------------
