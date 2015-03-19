@@ -40,7 +40,7 @@ os.system("say 'hello world'")
 I/O
 ---
 
-### Writing csv with numpy
+### Writing csv with numpy.savetxt [man](http://docs.scipy.org/doc/numpy/reference/generated/numpy.savetxt.html)
 ```python
 np.savetxt('output.dat', np.column_stack(results), header = 'My Results', delimiter = ",")
 ```
