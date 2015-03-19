@@ -31,8 +31,16 @@ favoritecolor = pickle.load( open( "save.p", "rb" ) )
 OS
 --
 
-### Making the system speak
+### Making the system speak (OSX)
 
 ```python
 os.system("say 'hello world'")
+```
+
+I/O
+---
+
+### Writing csv with numpy
+```python
+np.savetxt('output.dat', np.column_stack(results), header = 'My Results', delimiter = ",")
 ```
