@@ -46,3 +46,9 @@ Tabularize
 ----------
 
 Align text with a 'char' --> :Tabularize \char
+
+Ctrl-P
+------
+
+To activate fuzzy search --> <C-p>
+To open in a split       --> <C-v> or <C-x>
