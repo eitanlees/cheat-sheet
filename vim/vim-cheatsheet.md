@@ -39,6 +39,7 @@ Surround-vim
 ------------
 
 Change surrounding object --> cs')
+Delete surrounding object --> ds"
 Surround a whole line     --> yss)
 Surround a word           --> ysiw]
 
