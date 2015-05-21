@@ -1,6 +1,12 @@
 Bash Cheatsheet
 ===============
 
+Movement
+--------
+C-a Move to the start of the line.
+
+C-e Move to the end of the line.
+
 Symbolic Links
 --------------
 
