@@ -9,3 +9,8 @@ Spacing
 -------
 \usepackage{setspace}
 \doublespacing
+
+Biber
+-----
+
+A possible bib fix --> rm -rf `biber --cache`
