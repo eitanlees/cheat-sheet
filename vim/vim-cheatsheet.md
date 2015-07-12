@@ -53,3 +53,8 @@ Ctrl-P
 
 To activate fuzzy search --> <C-p>
 To open in a split       --> <C-v> or <C-x>
+
+Thesaurus
+---------
+:OnlineThesaurusCurrentWord --> <LocalLeader>K
+:Thesaurus word
