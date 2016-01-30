@@ -58,3 +58,11 @@ Thesaurus
 ---------
 :OnlineThesaurusCurrentWord --> <LocalLeader>K
 :Thesaurus word
+
+Merging two files linewise
+--------------------------
+%!paste - Y.dat # Merging the files
+%s/\s\+/ /g     # Replacing multiple spaces
+%s/\ /,/g       # replacing spaces with commas
+%s/$/./g        # Putting a period at the end
+

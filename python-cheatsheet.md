@@ -44,3 +44,15 @@ I/O
 ```python
 np.savetxt('output.dat', np.column_stack(results), header = 'My Results', delimiter = ",")
 ```
+
+Jupyter
+-------
+
+```python
+%matplotlib inline
+%config InlineBackend.figure_format = 'svg'
+from sklearn import tree
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
