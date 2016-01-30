@@ -51,7 +51,6 @@ Jupyter
 ```python
 %matplotlib inline
 %config InlineBackend.figure_format = 'svg'
-from sklearn import tree
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
