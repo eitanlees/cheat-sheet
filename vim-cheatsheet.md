@@ -62,12 +62,19 @@ Thesaurus
 Merging two files linewise
 --------------------------
 
-### Merging the files
+*Merging the files*
+
 %!paste - Y.dat 
-### Replacing multiple spaces
+
+*Replacing multiple spaces*
+
 %s/\s\+/ /g     
-### replacing spaces with commas
+
+*Replacing spaces with commas
+
 %s/\ /,/g       
-### Putting a period at the end
+
+*Putting a period at the end*
+
 %s/$/./g        
 
