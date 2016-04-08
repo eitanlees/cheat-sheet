@@ -23,5 +23,3 @@ Here are some sources that helped to make these cheatsheets
 ### Vim
 
 ### R
-
-### Julia
