@@ -51,9 +51,10 @@ Jupyter
 ```python
 %matplotlib inline
 %config InlineBackend.figure_format = 'svg'
-import warnings
-warnings.filterwarnings('ignore')
 import numpy as np
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
 import seaborn as sns
+warnings.filterwarnings('default')
 ```
