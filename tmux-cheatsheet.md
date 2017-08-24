@@ -39,7 +39,7 @@ kill session:
     ,  name window
     &  kill window
 
-## <a name="PanesSplits"></a>Panes (splits) 
+## Panes (splits) 
 
     %  vertical split
     "  horizontal split
