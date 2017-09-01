@@ -54,3 +54,11 @@ Jupyter
 import numpy as np
 import matplotlib.pyplot as plt
 ```
+
+Matplotlib
+----------
+
+### Legend outside of plot
+```python
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+```
