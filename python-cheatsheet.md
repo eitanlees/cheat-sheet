@@ -62,3 +62,19 @@ Matplotlib
 ```python
 plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 ```
+
+### Loop for subplots
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.arange(11)
+y = np.random.rand(len(x), 9)*10
+
+fig, axes = plt.subplots(3,3, sharex=True, sharey=True)
+
+for i, ax in enumerate(axes.flatten()):
+    ax.bar(x, y[:,i], color=plt.cm.Paired(i/10.))
+
+plt.show()
+```
