@@ -10,6 +10,16 @@ General
 fouremptylists = [[] for __ in xrange(4)]
 ```
 
+### Dictionaries
+```python
+>>> d = {'key':'value'}
+>>> print(d)
+{'key': 'value'}
+>>> d['mynewkey'] = 'mynewvalue'
+>>> print(d)
+{'mynewkey': 'mynewvalue', 'key': 'value'}
+```
+
 
 Pickel
 ------
