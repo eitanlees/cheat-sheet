@@ -48,12 +48,20 @@ np.savetxt('output.dat', np.column_stack(results), header = 'My Results', delimi
 Jupyter
 -------
 
+### Standard Header Cell
 ```python
 %matplotlib inline
 %config InlineBackend.figure_format = 'svg'
 import numpy as np
 import matplotlib.pyplot as plt
 ```
+
+### Automatic reloading magic:
+```python
+%load_ext autoreload
+%autoreload 2
+```
+
 
 Matplotlib
 ----------
