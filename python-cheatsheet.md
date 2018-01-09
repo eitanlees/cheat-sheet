@@ -96,3 +96,8 @@ for i, ax in enumerate(axes.flatten()):
 
 plt.show()
 ```
+
+### Accessing color cycle
+```python
+color_list = plt.rcParams['axes.prop_cycle'].by_key()['color']
+```
