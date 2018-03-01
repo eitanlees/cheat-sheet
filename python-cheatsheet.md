@@ -38,6 +38,19 @@ pickle.dump( favoritecolor, open( "save.p", "wb" ) )
 favoritecolor = pickle.load( open( "save.p", "rb" ) )
 ```
 
+### Generalized functions
+```python
+import pickle
+def pkl_read(filename):
+    with open(filename, 'rb') as f:
+        return pickle.load(f)
+
+def pkl_write(data, filename):
+    with open(filename, 'wb') as f:
+        pickle.dump(data,f)
+    return
+```
+
 OS
 --
 
